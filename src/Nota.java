@@ -111,11 +111,11 @@ public class Nota {
      */
     public String mensajeResultado() {
         if (def < 5 && def >= 0) {
-            return "Suspendida";
+            return "UF suspendida";
         } else if (def >= 5 && def <= 10) {
-            return "Aprobada";
+            return "UF aprobada";
         } else {
-            return "Error en las notas";
+            return "Error en las notas, debe introducir una nota valida.";
         }
     }
 
