@@ -45,26 +45,26 @@ public class Nota {
     public void comprobacion() {
 
         if (uf01 > 10) {
-            System.out.println(" La nota 1 esta mal introducida");
+            System.out.println("Nota 1 esta mal introducida");
 
         } else {
-            System.out.println(" La nota 1 es correcta");
+            System.out.println("Nota 1 es correcta");
         }
 
         if (uf02 > 10) {
-            System.out.println(" La nota 2 esta mal introducida");
+            System.out.println("Nota 2 esta mal introducida");
 
         } else {
-            System.out.println(" La nota 2 es correcta");
+            System.out.println("Nota 2 es correcta");
         }
 
         if (uf03 > 10) {
-            System.out.println(" La nota 3 esta mal introducida");
+            System.out.println("Nota 3 esta mal introducida");
 
         }
 
         else {
-            System.out.println(" La nota 3 es correcta");
+            System.out.println("Nota 3 es correcta");
         }
     }
 
@@ -90,9 +90,9 @@ public class Nota {
     public void mostrar() {
         // print ln lo que hace es que al terminar el print baja la linea
         System.out.println(" Notas introducidas son:");
-        System.out.println(" nota1 = " + uf01);
-        System.out.println(" nota2 = " + uf02);
-        System.out.println(" nota3 = " + uf03);
+        System.out.println(" nota 1 = " + uf01);
+        System.out.println(" nota 2 = " + uf02);
+        System.out.println(" nota 3 = " + uf03);
 
         System.out.println(" Acumulado 1 = " + acu01);
         System.out.println(" Acumulado 2 = " + acu02);
