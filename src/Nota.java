@@ -12,7 +12,7 @@ public class Nota {
 
     // declaramos la variables que nos hacen falta
     double uf01, uf02, uf03;
-    double acu1, acu2, acu3, def;
+    double acu01, acu02, acu03, def;
     // utilizames ecaner para poder introducir datos
     Scanner entrada = new Scanner(System.in);
 
@@ -74,11 +74,11 @@ public class Nota {
      * La nota final se calcula como la suma ponderada de las tres notas.
      */
     public void calculoNotas() {
-        acu1 = uf01 * 0.35;
-        acu2 = uf02 * 0.35;
-        acu3 = uf03 * 0.30;
+        acu01 = uf01 * 0.35;
+        acu02 = uf02 * 0.35;
+        acu03 = uf03 * 0.30;
 
-        def = acu1 + acu2 + acu3;
+        def = acu01 + acu02 + acu03;
 
     }
 
@@ -94,9 +94,9 @@ public class Nota {
         System.out.println(" nota2 = " + uf02);
         System.out.println(" nota3 = " + uf03);
 
-        System.out.println(" Acumulado 1 = " + acu1);
-        System.out.println(" Acumulado 2 = " + acu2);
-        System.out.println(" Acumulado 3 = " + acu3);
+        System.out.println(" Acumulado 1 = " + acu01);
+        System.out.println(" Acumulado 2 = " + acu02);
+        System.out.println(" Acumulado 3 = " + acu03);
 
         System.out.println(" Nota definitiva es = " + def);
 
